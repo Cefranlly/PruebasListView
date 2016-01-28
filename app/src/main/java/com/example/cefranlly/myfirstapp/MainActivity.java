@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView v = (TextView) findViewById(R.id.vistaTexto);
-                Toast.makeText(getApplicationContext(),v.getText(),Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),v.getText(),Toast.LENGTH_LONG);
             }
         });
     }
